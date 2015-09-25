@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'myapp.views.index'),
+    url(r'^bootstrap/', 'myapp.views.bootstrap'),
 ]
